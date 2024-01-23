@@ -30,3 +30,7 @@ content as follows
    DESTINATION "${LIB_INSTALL_DIR}/pkgconfig/")
 ```
 
+change the name of file called lv_drv_conf_template.h to lv_drv_conf.h in lv_drivers folder
+
+set `if 0` to `if 1` in line 11
+
